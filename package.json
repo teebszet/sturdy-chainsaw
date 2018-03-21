@@ -1,0 +1,26 @@
+{
+  "name": "sturdy-chainsaw",
+  "version": "1.0.0",
+  "description": "micro networking!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teebszet/sturdy-chainsaw.git"
+  },
+  "author": "Tim Man",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/teebszet/sturdy-chainsaw/issues"
+  },
+  "homepage": "https://github.com/teebszet/sturdy-chainsaw#readme",
+  "dependencies": {
+    "next": "^5.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

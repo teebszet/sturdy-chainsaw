@@ -8,20 +8,22 @@ const Page = ({
     <Menu />
     <h1>Public Questions</h1>
     <ul>
-      {questions.map(q => <li>{q}</li>)}
+      {questions.map(({id, question}) => 
+        <li key={id}>{question}</li>
+      )}
     </ul>
   </div>
 
 Page.getInitialProps = () => ({
   // TODO get these from server
   questions: [
-    "what is my hair colour?",
-    "where do I work?",
-    "what is my passion?",
-    "what did I speak about?",
-    "how many people did I manage in my team?",
-    "what technologies do I program in?",
-    "what's my musical influence?",
+    { id: '1', question: "how does a monkey eat a banana?" },
+    { id: '2', question: "where do I work?" },
+    { id: '3', question: "what is my passion?" },
+    { id: '4', question: "what did I speak about?" },
+    { id: '5', question: "how many people did I manage in my team?" },
+    { id: '6', question: "what technologies do I program in?" },
+    { id: '7', question: "what's my musical influence?" },
   ]
 })
 

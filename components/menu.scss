@@ -1,0 +1,12 @@
+/* menu.scss */
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.menu__item {
+  padding: 10px;
+}

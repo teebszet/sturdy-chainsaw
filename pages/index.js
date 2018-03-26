@@ -1,7 +1,8 @@
 import Menu from '../components/menu'
+import Layout from '../layouts/layout'
 
 export default () =>
-  <div>
+  <Layout>
     <Menu />
     <h1>Welcome to Micro Networking!</h1>
-  </div>
+  </Layout>
